@@ -149,25 +149,6 @@ The system returns a list of matched users with their profile details.
 ```http
 GET /users/5/matches
 ```
-
-### **Example Response**  
-```json
-[
-    {
-        "id": 8,
-        "full_name": "Ananya Sharma",
-        "gender": "Female",
-        "age": 27,
-        "religion": "Hindu",
-        "work_location": "Mumbai",
-        "diet": "Veg",
-        "drinking_habits": "Never",
-        "smoking_habits": "Never",
-        "interests": ["Reading", "Traveling"]
-    }
-]
-```
-
 ---
 
 ## **Why This Works Well**  
